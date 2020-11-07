@@ -62,7 +62,7 @@ function validateForm(event) {
         }, 1500)
     } else {
         setTimeout(() => {
-            M.toast({html: 'One or more fields heve invalid data!', classes: "toast error-toast"})
+            M.toast({html: 'One or more fields have invalid data!', classes: "toast error-toast"})
             button.classList.remove("activeLoading");
         }, 600)        
     }    
